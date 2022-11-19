@@ -43,13 +43,12 @@ def calculate_prediction(csv_path):
     y = df['Price']
 
     dtree = DecisionTreeClassifier()
-    dtree = dtree.fit(x, y) 
-    tree.plot_tree(dtree, feature_names=attributes)
+    dtree = dtree.fit(x.values, y) 
     
     return dtree
 
 
 def predict(dtree, item):
-    result = int(dtree.predict([[item.Year, item.Month, item.Gender]]))
+    result = int(dtree.predict([[item.year, item.month, item.gender]]))
     return result
     
