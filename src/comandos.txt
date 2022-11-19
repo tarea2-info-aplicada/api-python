@@ -4,3 +4,8 @@ py -m venv env
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -> acticar comandos
 
 .\env\Scripts\activate  
+
+uvicorn main:app
+
+
+pip install pandas
