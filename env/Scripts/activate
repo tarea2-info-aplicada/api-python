@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Steve\Desktop\py-api\env"
+VIRTUAL_ENV="C:\Users\Steve\Documents\tarea2-ML\py-api_machine_learning\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
